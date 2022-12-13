@@ -125,6 +125,7 @@ h1{
 /* CONTACTO */
 
 .formContainer {
+  
   display: flex;
   justify-content: center;
   background-color: rgb(45 0 128 / 32%);  
@@ -133,10 +134,21 @@ h1{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   
+  form {
+    width: 80%;
+
+    input {
+      height: 30px;
+      color: white;
+    }
+
+    textarea {
+      color: white;
+    }
+  }
 }
 
 .listaForm {
-  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

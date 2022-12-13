@@ -1,5 +1,13 @@
 /* BUTTONS */
+@mixin box-shadow {
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+}
 
+@mixin box-shadow-padd {
+  @include box-shadow();
+  padding: 1.2em 2.6em 1.2em 2.6em;
+
+}
 .buttonDiv {
     display: flex;
     justify-content: center;
@@ -15,20 +23,18 @@
       outline: 0;
       cursor: pointer;
       border-radius: 8px;
-      box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
       background-color: #68b33678;
       padding: 1em 2.35em 1em 2.35em;
       max-width: 24em;
+      @include box-shadow();
       &:hover {
           background-color: #68b336c0;
-          box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-            padding: 1.2em 2.6em 1.2em 2.6em;
+          @include box-shadow-padd();
           transition: all 0.5s;
         }
       &:active {
           background-color: #68b336;
-          box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-            padding: 1.2em 2.6em 1.2em 2.6em;
+          @include box-shadow-padd();
         }
   
 }

@@ -60,10 +60,10 @@ footer {
   outline: 0;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
   background-color: rgba(104, 179, 54, 0.4705882353);
   padding: 1em 2.35em 1em 2.35em;
   max-width: 24em;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 }
 .button:hover {
   background-color: rgba(104, 179, 54, 0.7529411765);
@@ -98,7 +98,6 @@ footer {
   color: white;
 }
 
-/* PRODUCTOS */
 .styleProductos {
   font-family: fontRegular;
   font-size: 4vw;
@@ -272,9 +271,18 @@ h1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+.formContainer form {
+  width: 80%;
+}
+.formContainer form input {
+  height: 30px;
+  color: white;
+}
+.formContainer form textarea {
+  color: white;
+}
 
 .listaForm {
-  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

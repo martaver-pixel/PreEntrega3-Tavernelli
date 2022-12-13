@@ -5,59 +5,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" property="description" content="Lavandula, donde encontrarás una gran variedad de productos hechos a base de aceite de lavanda"/>
+  <meta name="keywords" content="lavanda, te de hierbas, aceite de lavanda, jabones, cuidado, belleza, relax" />
   <link rel="stylesheet" href="../CSS/style.css" />
-  <link rel="icon" type="image/x-icon" href="./Favicon/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="../Favicon/favicon-16x16.png">
   <title>Contacto</title>
 </head>
 
 <body>
   <div class="wrapper">
-    <div>
-      <article id="video">
-        <video autoplay loop muted class="videoUs" id="myVideo">
-          <source src="../myVideos/production ID_5056537.mp4" type="video/mp4">
+      <div>
+        <article id="video">
+          <video autoplay loop muted class="videoUs" id="myVideo">
+            <source src="../myVideos/production ID_5056537.mp4" type="video/mp4">
+      </div>
+      <header>
+        <nav>
+          <ul class="topnav-ul">
+            <li><a class="item active" href="../index.html">Inicio</a></li>
+            <li><a class="item" href="about.html">Nosotros</a></li>
+            <li><a class="item" href="products.html">Productos</a></li>
+            <li><a class="item" href="propiedades.html">Propiedades</a></li>
+            <li><a class="item" href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
-    <header>
-      <nav>
-        <ul class="topnav-ul">
-          <li><a class="item active" href="../index.html">Inicio</a></li>
-          <li><a class="item" href="about.html">Nosotros</a></li>
-          <li><a class="item" href="products.html">Productos</a></li>
-          <li><a class="item" href="propiedades.html">Propiedades</a></li>
-          <li><a class="item" href="contact.html">Contacto</a></li>
+  <main>
+    <div>
+      <h1 class="styleProductos">Contactanos</h1>
+    </div>
+    <div class="formContainer">
+      <form action="index.html" method="post">
+        <ul class="listaForm">
+          <li>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="user_name">
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" name="user_mail">
+          </li>
+          <li>
+            <label for="msj">Mensaje:</label>
+            <textarea class="user_msj" name="user_msj"></textarea>
+          </li>
+          <li>
+            <div class="containerFormButton">
+              <button class="button buttonEnviar">
+                <a class="buttonLink" href="../index.html">Enviar</a> <!-- ruta temporal -->
+              </button>
+            </div>
+          </li>
         </ul>
-      </nav>
-    </header>
-  </div>
-  <div>
-    <h1 class="styleProductos">Contactanos</h1>
-  </div>
-  <div class="formContainer">
-    <form action="index.html" method="post">
-      <ul class="listaForm">
-        <li>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="user_name">
-        </li>
-        <li>
-          <label for="mail">Correo electrónico:</label>
-          <input type="email" name="user_mail">
-        </li>
-        <li>
-          <label for="msj">Mensaje:</label>
-          <textarea class="user_msj" name="user_msj"></textarea>
-        </li>
-        <li>
-          <div class="containerFormButton">
-            <button class="button buttonEnviar">
-              <a class="buttonLink" href="../index.html">Enviar</a> <!-- ruta temporal -->
-            </button>
-          </div>
-        </li>
-      </ul>
-    </form>
-  </div>
-  <div>
+      </form>
+    </div>
+    <div>
+  </main>
     <footer>
       <h6>
         Email: pirulinpirulan@gmail.com   Tel: +34 3593-2848    Instagram: @lavandula
@@ -65,5 +69,4 @@
     </footer>
   </div>
 </body>
-
 </html>

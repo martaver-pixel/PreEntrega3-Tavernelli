@@ -1,0 +1,55 @@
+/* BUTTONS */
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.4rem;
+  }
+  
+  .button {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      font-family: fontBold;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+      background-color: #68b33678;
+      padding: 1em 2.35em 1em 2.35em;
+      max-width: 24em;
+      &:hover {
+          background-color: #68b336c0;
+          box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+            padding: 1.2em 2.6em 1.2em 2.6em;
+          transition: all 0.5s;
+        }
+      &:active {
+          background-color: #68b336;
+          box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+            padding: 1.2em 2.6em 1.2em 2.6em;
+        }
+  
+}
+  
+.buttonInicio {
+      text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #fff !important;
+      justify-content: center;
+  }
+
+.buttonUs {
+    margin-bottom: 5rem;
+  }
+
+.buttonEnviar {
+    background-color: rgba(45, 0, 128, 0.61);
+  }
+  
+.buttonLink {
+    text-decoration: none;
+    color: white;
+  }

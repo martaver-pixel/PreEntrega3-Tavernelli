@@ -1,0 +1,24 @@
+{
+  "name": "martina-tavernelli---2da-preentrega---coderhouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martaver-pixel/Martina-Tavernelli---2da-PreEntrega---Coderhouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martaver-pixel/Martina-Tavernelli---2da-PreEntrega---Coderhouse/issues"
+  },
+  "homepage": "https://github.com/martaver-pixel/Martina-Tavernelli---2da-PreEntrega---Coderhouse#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
